@@ -1,16 +1,22 @@
-# Project Requirements for Cat Clicker
+# New Project Requirements for Cat Clicker
 **Visuals**
 
-* The application should display a picture of a cat and a number of clicks.
+* The application should display two cats. Each cat includes
+  * the cat's name
+  * a picture of the cat
+  * text showing the number of clicks
+
 * The specifics of the layout do not matter, so style it however you'd like.
 
 **Interaction**
 
-* The number of clicks should increment when the cat picture is clicked.
+* The number of clicks should increment when each cat picture is clicked.
 
 **Inspiration**
 
-![Cute Cat for Inspiration](https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426)
+![Cute Cat for Inspiration](https://lh3.ggpht.com/kixazxoJ2ufl3ACj2I85Xsy-Rfog97BM75ZiLaX02KgeYramAEqlEHqPC3rKqdQj4C1VFnXXryadFs1J9A=s0#w=640&h=496)
+
+Thanks to [chewie](https://www.flickr.com/photos/chewie/2290467335) for the photo.
 
 **Resources**
 
@@ -34,3 +40,5 @@ $('#my-elem').click(function(e) {
 });
 
 ```
+
+ps. Use ES6
